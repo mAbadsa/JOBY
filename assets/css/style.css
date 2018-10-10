@@ -1,0 +1,643 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #f5f5f5;
+}
+/* ----- General properties------*/
+*::selection
+{
+    background: #5bbc2e;
+}
+
+
+/*//////////////\\\\\\\\\\\\\\*/
+/*------Section A --------*/
+.bg
+{
+    padding-bottom: 150px;
+    background-image: url(../img/Artboard%201.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav
+{
+    width: 100%;
+    height: 70px;
+}
+.logo
+{
+    margin-left: 40px;
+    margin-top: 7.5px;
+    float: left
+}
+nav .menuBar
+{
+    float: right
+}
+.menuBar ul
+{
+    list-style-type: none;
+/*    text-align: center*/
+}
+.menuBar ul li
+{
+    margin: 5px 20px;
+    display: inline-block;
+/*    text-align: center*/
+}
+.menuBar ul li:last-child
+{
+    margin-right: 70px;
+}
+.menuBar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.1s
+}
+.menuBar ul li a:hover,
+.menuBar ul li a.active
+{
+    border-bottom: 2px solid #fff;
+    transition: 0.1s
+}
+.link {
+    margin-top: 17px;
+    margin-right: 95px;
+    float: right;
+}
+.link a{
+    background-color: #409d16;
+    width: 177px;
+    height: 38px;
+    line-height: 38px;
+    cursor: pointer;
+}
+.clear
+{
+    clear: both
+}
+.hero .desc
+{
+    padding-top: 250px;
+    margin: 0 auto;
+    width: 880px;
+    height: auto;
+    font-size: 42px;
+    text-align: center;
+}
+.hero .descTitle{
+    border-bottom: 1px solid #b2b2b2;
+}
+.hero .desc h1 span{
+    color: #000;
+}
+.linkStart
+{
+    text-align: center;
+    margin-top: 62px;
+}
+.linkStart a
+{
+    display: inline-block;
+    width: 450px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.linkStart a:hover{
+    background-color: #6ccd3f
+}
+
+
+/*//////////////\\\\\\\\\\\\\\\\\\*/
+/*------Section B -----------*/
+
+.service .container{
+    padding-top: 95px;
+    background: #f9f9f9;
+}
+.service .desc
+{
+    text-align: center;
+}
+ .service .desc h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.service .desc h2 span{
+    color: #000;
+}
+.service .desc p
+{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    width: 70%;
+    font-size: 18px;
+    text-align: center;
+    color: #515151;
+}
+/*------ grid display -----*/
+.serviceCont{
+    background-color: #f9f9f9;
+}
+.serviceBox{
+    margin-right: 95px;
+    margin-left: 100px;
+    margin-top: 60px;
+    padding-bottom: 140px;
+}
+.imgBox
+{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.imgBox h6{
+    
+}
+.imgBox img{
+    width: 50px;
+    height: 50px;
+}
+.imgBox:nth-child(2) img{
+    width: 72px;
+    height: 50px;
+}
+
+/*///////////\\\\\\\\\\\\\\\*/
+/* ------ Section C -------*/
+.workstart{
+    padding-bottom: 70px;
+}
+.workstart .container{
+    padding-top: 140px;
+    background-color: #f5f5f5
+}
+.workstart .box{
+    margin: 0 auto;
+}
+.workstart .descText
+{
+    margin-left: 100px;
+    padding-top: 30px;
+    text-align: left;
+    width: 500px;
+    height: auto;
+    float: left;
+}
+.workstart .descText h3{
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.workstart .descText p
+{
+
+    color: #767575;
+    font-size: 14px;
+}
+.workstart .imgBox{
+    margin-right: 150px;
+    float: right;
+    width: 360px;
+    height: auto;
+}
+.workstart .imgBox img{
+    width: 360px;
+    height: 250px;
+}
+
+/*//////////////\\\\\\\\\\\\\*/
+/*---- Section D -----*/
+.perfect{
+    padding-bottom: 0px;
+}
+.perfect .container{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #fff;
+}
+.perfect .descText{
+    margin-right: 150px;
+    margin-left: 0px;
+    padding-top: 60px;
+    float: right;
+}
+.perfect .imgBox{
+    margin-left: 150px;
+    margin-right: 0px;
+    float: left;
+}
+.perfect .imgBox img{
+    width: 355px;
+    height: auto;
+}
+
+/*/////////\\\\\\\\\\\\\*/
+/*---- Section E -----*/
+.employers .container{
+    padding: 120px 0;
+    background: #f5f5f5;
+}
+.employers .container .box {
+    margin: 0 auto;
+    text-align: center;
+}
+.employers .container .box h3{
+    margin-bottom: 85px;
+    text-transform: uppercase;
+    font-stretch: expanded;
+}
+.employers .container .box img{
+    width: 820px;
+    height: auto;
+}
+/*////////////\\\\\\\\\\\\*/
+/*------section F -------*/
+.jopboard .container{
+    padding-top: 110px;
+    padding-bottom: 150px;
+    background-color: #fff;
+}
+.jopboard h3{
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.jopboard .boximg{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.jopboard .boximg .subGrid{
+    margin-bottom: 30px;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.jopboard .boximg .subGrid span{
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 35px;
+    background-color: #2ca7e0;
+    transform: translateY(-50%);
+}
+.jopboard .boximg .subGrid:nth-child(2) span{
+    background-color: #5bbc2e
+}
+.jopboard .boximg .subGrid:nth-child(3) span{
+    background-color: #c42fc9
+}
+.jopboard .boximg .subGrid:nth-child(4) span{
+    background-color: #dac00e
+}
+.jopboard .boximg .subGrid:nth-child(5) span{
+    background-color: #5bbc2e
+}
+.jopboard .boximg .subGrid:nth-child(6) span{
+    background-color: #dac00e
+}
+.jopboard .boximg .subGrid:nth-child(7) span{
+    background-color: #2ca7e0
+}
+.jopboard .boximg .subGrid:nth-child(8) span{
+    background-color: #c42fc9
+}
+.jopboard .boximg .subGrid:nth-child(9) span{
+    background-color: #c42fc9
+}
+.jopboard .boximg .subGrid:nth-child(10) span{
+    background-color: #5bbc2e
+}
+.jopboard .boximg .subGrid:nth-child(11) span{
+    background-color: #dac00e
+}
+.jopboard .boximg .subGrid:nth-child(12) span{
+    background-color: #2ca7e0
+}
+.jopboard .boximg .subGrid a{
+    display: block;
+    
+    color: #4b4b4b;
+    background-color: transparent;
+}
+/*//////////\\\\\\\\\\\\*/
+/*------section G---------*/
+.workers .container{
+    padding-top: 95px;
+    padding-bottom: 115px;
+}
+.workers .bg
+{
+    background-image: url(../img/bg%20jopboard.png);
+}
+.featured{
+    text-align: center;
+}
+.featured h3{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fff;
+}
+.workers .imgContainer{
+    margin-right: 95px;
+    margin-left: 95px;
+}
+.workers .teamImgBox{
+    margin-right: 30px;
+    width: 270px;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    background-color: #fff;
+}
+.workers .teamImgBox .teamImg{
+    margin-top: 35px;
+    width: 130px;
+    height: 130px;
+}
+.imgContainer:last-child .teamImgBox{
+    margin-right: 0px;
+}
+.starts{
+    margin-bottom: 12px;
+    margin-top: 9px;
+    height: 11px;
+}
+.imgContainer h6{
+    margin-top: 22px;
+}
+.imgContainer i{
+    margin-right: 12px;
+}
+
+/*//////////\\\\\\\\\\\\*/
+/*------section H ---------*/
+.build .container{
+    padding-top: 135px;
+    padding-bottom: 105px;
+}
+
+/*//////////\\\\\\\\\\\\*/
+/*------section I ---------*/
+.statistic .container{
+    padding-top: 73px;
+    padding-bottom: 70px;
+    background-color: #b6b6b6;
+}
+.statistic .container section{
+    padding-right: 240px;
+    padding-left: 240px;
+    text-align: center;
+}
+.statistic .container section h3{
+    padding-bottom: 14px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    text-transform: uppercase;
+}
+.statistic .container section h6{
+    padding-top: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*//////////\\\\\\\\\\\\*/
+/*------section J ---------*/
+.workerTogether .container{
+    padding-top: 90px;
+    padding-bottom: 195px;
+    background-color: #242424
+}
+.workerTogether .desc h4{
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.workerTogether .desc p{
+    margin-bottom: 70px;
+    padding-left: 200px;
+    padding-right: 230px;
+    line-height: 2;
+    text-align: center;
+}
+.workerTogether .subLogosBoxFirst{
+    margin-left: 160px;
+    width: 100%;
+    height: auto;
+}
+.workerTogether .subLogosBoxFirst div{
+    margin-right: 140px;
+    margin-bottom: 30px;
+    float: left;
+    width: clac(50% / 4);
+    height: auto;
+}
+.workerTogether .subLogosBoxSecond{
+    margin-left: 350px;
+    width: 100%;
+    height: auto;
+}
+.workerTogether .subLogosBoxSecond div{
+    margin-right: 120px;
+    margin-top: 30px;
+    float: left;
+    width: clac(55% / 3);
+    height: auto
+}
+
+/*//////////\\\\\\\\\\\\*/
+/*------section K ---------*/
+.question .container{
+    padding-top: 50px;
+    padding-bottom: 45px;
+    background-color: #262626
+}
+.question .contactUs{
+    text-align: center;
+}
+.question .contactUs h3{
+    text-transform: uppercase;
+}
+.question .contactUs a{
+    margin-top: 45px;
+    padding: 10px;
+    width: 190px;
+    height: 55px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.question .contactUs a:hover{
+    background-color:#555;
+}
+
+/*//////////\\\\\\\\\\\\*/
+/*------section L ---------*/
+.contact .container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #141414
+}
+.contact .logo-sub{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.contact .desc p{
+    margin: 0 auto;
+    padding-bottom: 25px;
+    width: 770px;
+    text-align: center;
+}
+.contact .socialLinkd{
+    padding-bottom: 65px;
+    height: 45px;
+    text-align: center;
+}
+.contact .socialLinkd a{
+    margin-left: 20px;
+    width: 42px;
+    height: 42px;
+    border: 1.5px solid #363636;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #363636;
+    box-sizing: border-box;
+    line-height: 42px;
+    transform: 0.1s;
+}
+.contact .socialLinkd a:hover{
+    border: none;
+    color: #fff;
+    background-color: #5bbc2e;
+    transition: 0.1s;
+}
+.contact .blog{
+    width: 280px;
+    height: auto;
+}
+.contact .socialLinkd{
+    
+}
+.contact .blog .grid-3col-2row span{
+    width: 85px;
+    height: 95px;
+    background-color: #979797
+}
+
+.contact .usefulLink{
+    padding-right: 100px;
+    padding-left: 80px;
+}
+.contact .usefulLink h3,
+.contact .usefulLink h4,
+.contact .usefulLink p{
+    font-size: 12px;
+    text-align: left;
+}
+
+.contact .usefulLink h3{
+    padding-bottom: 10px;
+    color: #e5e5e5;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact .usefulLink .contactInfo{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 30px;
+    float: left;
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+}
+.contact .usefulLink .contactInfo p{
+    color: #474747;
+}
+.contact .usefulLink .contactInfo span{
+    width: 150px;
+}
+.contact .usefulLink .contactInfo h4{
+    padding-bottom: 15px;
+    padding-top: 40px;
+    color: #5bbc2e;
+}
+.contact .usefulLink .usefulLink-sub{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 30px;
+    float: left;
+    width: 14%;
+    height: auto;
+    box-sizing: border-box;
+}
+.contact .usefulLink .usefulLink-sub div{
+    padding-top: 40px;
+}
+.contact .usefulLink .usefulLink-sub a{
+    display: block;
+    padding-top: 18px;
+    background-color: transparent;
+    text-align: left;
+    font-size: 12px;
+    color: #474747;
+}
+.contact .usefulLink .usefulLink-sub a:nth-child(1){
+    padding-top: 0px;
+}
+.contact .usefulLink .usefulLink-sub a:hover{
+    color: #5bbc2e;
+    text-decoration-line: underline;
+}
+.contact .usefulLink .twitterBlock{
+    margin-left: 20px;
+    padding-left: 30px;
+    float: left;
+    width: 24%;
+    height: auto;
+    box-sizing: border-box;
+}
+.contact .usefulLink .twitterBlock a{
+    padding-top: 40px;
+    text-align: left;
+    background-color: transparent;
+    color: #474747;
+}
+.contact .usefulLink .blog{
+
+    margin-right: 20px;
+    padding-left: 30px;
+    float: left;
+    width: 23%;
+    height: auto;
+    box-sizing: border-box;
+}
+.contact .usefulLink .blog .border-botom{
+    width: 120px;
+}
+
+/*//////////\\\\\\\\\\\\*/
+/*------section M ---------*/
+
+footer .container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #141414
+}
+footer .container p{
+    padding-left: 100px;
+    font-size: 11px;
+    color: #4c4c4c
+}
+
