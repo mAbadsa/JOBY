@@ -1,3 +1,3 @@
 AOS.init({
-    duration: 2000
+    duration: 800
 });
